@@ -6,7 +6,7 @@
     padding-left: 100px;
     padding-bottom: 150px;
 }
-.container {
+.head-container {
     
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,8 @@ ul , a {
     border-radius: 12px;
     border: #3882F6;
     height: 40px;
+    padding-left:20px ;
+    padding-right: 20px;
     
     
     
@@ -67,5 +69,28 @@ ul , a {
     background-color: grey;
     flex: 1;
 }
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.info-block {
+    display: flex;
+    flex-direction: column;
+}
+.illustration {
+    background-color: gray;
+    border-radius: 12px;
+}
+
 
 
