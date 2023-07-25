@@ -90,8 +90,10 @@ ul , a {
     flex-direction: column;
 }
 .illustration {
-    background-color: gray;
+    background-color: rgb(48, 140, 201);
     border-radius: 12px;
+    border-color: #3882F6;
+    border: solid;
 }
 .quote {
     background-color: #E5E7EB;
@@ -160,6 +162,15 @@ ul , a {
 .bottom {
     color: #F9FAF8;
     font-size: 18px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 2%;
+    font-size: 24px;
 }
 
 
