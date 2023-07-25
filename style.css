@@ -82,6 +82,7 @@ ul , a {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
+    padding-bottom: 10%;
 }
 .info-block {
     display: flex;
@@ -90,6 +91,29 @@ ul , a {
 .illustration {
     background-color: gray;
     border-radius: 12px;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+.words {
+
+    padding: 10%;
+    padding-bottom: 0%;
+    
+    font-size: 36px;
+    font-style: italic;
+    justify-self: center;
+    align-self: center;
+}
+.author {
+    justify-self: end;
+    align-self: self-end;
+    margin-right: 20%;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
